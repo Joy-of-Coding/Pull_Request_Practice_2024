@@ -3,7 +3,7 @@ import PlayerMovement from './PlayerMovement.jsx';
 import maze from '../utils/data.js';
 import YellowDude from './YellowDude.jsx';
 
-function GameArea(setStartGame) {
+function GameArea( {setStartGame} ) {
 	//all constants pulled to top of Game Area
 	const cellSize = 15;
 	const score = 0;
